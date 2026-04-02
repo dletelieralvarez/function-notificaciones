@@ -1,8 +1,8 @@
 package com.function.model;
 
-//MODELO QUE REPRESENTA LA ESTRUCTURA DE LOS DATOS DE UNA NOTIFICACIÓN
-//CON GRAPHQL NO SE UTILIZA YA QUE LOS DATOS SE RECIBEN COMO ARGUMENTOS DE LA MUTATION
-public class NotificacionRequest {
+//MODELO DE SALIDA
+//EL CLIENTE PIDE CAMPOS ESPECIFICOS, PERO EL MODELO DEBE CONTENER TODOS LOS CAMPOS DE LA BASE DE DATOS
+public class NotificacionesResponse {
     private String evento;
     private String canal;
     private String destino;
